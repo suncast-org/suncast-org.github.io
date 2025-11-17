@@ -1,0 +1,32 @@
+site_name: SUNCAST — Open-Science Framework
+site_description: SUNCAST community governance, contribution paths, and project overview.
+site_url: https://suncast-org.github.io/
+repo_url: https://github.com/suncast-org/suncast-org.github.io
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Governance:
+      - Overview: governance.md
+      - Maintainers: maintainers.md
+      - Code of Conduct: code_of_conduct.md
+  - Contributing: contributing.md
+  - Projects: projects.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - def_list
+  - footnotes
+  - tables
+  - attr_list
