@@ -1,5 +1,3 @@
-# 📄 **Recommended `README.md` for suncast-org.github.io**
-
 ```markdown
 # 🌞 SUNCAST GitHub Pages Website
 
