@@ -30,36 +30,6 @@ suncast-org.github.io/
 │ └── projects.md
 └── LICENSE # CC-BY-4.0 license for documentation
 
-## 🚀 Building the site locally
-
-To preview or modify the site, install the required packages:
-
-```bash
-pip install mkdocs-material
-````
-
-Then build and serve the site locally:
-
-```bash
-mkdocs serve
-```
-
-This launches a local development server (usually [http://127.0.0.1:8000](http://127.0.0.1:8000)).
-
----
-
-## 📤 Deploying the site
-
-To deploy updates to GitHub Pages:
-
-```bash
-mkdocs gh-deploy
-```
-
-MkDocs will automatically build the static site and push it to the `gh-pages` branch used by GitHub Pages.
-
----
-
 ## 🤝 Contributing
 
 Website content is located in the `docs/` directory.
