@@ -1,6 +1,7 @@
 site_name: SUNCAST — Open-Science Framework
 site_description: SUNCAST community governance, contribution paths, and project overview.
 site_url: https://suncast-org.github.io/
+site_author: SUNCAST Collaboration
 repo_url: https://github.com/suncast-org/suncast-org.github.io
 
 theme:
@@ -12,6 +13,14 @@ theme:
     - navigation.top
     - toc.follow
     - content.code.copy
+  favicon: favicon.ico
+  logo: favicon-192.png  # can replace with a real logo later
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/suncast-org
+  copyright: "© 2025 SUNCAST Collaboration — Open Science for Heliophysics"
 
 nav:
   - Home: index.md
